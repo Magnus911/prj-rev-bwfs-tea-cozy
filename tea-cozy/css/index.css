@@ -1,0 +1,161 @@
+
+
+body {
+  background-color: #000;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+}
+
+h2,
+h3,
+h4,
+h5, {
+  color: seashell;
+  margin: 0;
+  padding: 0;
+}
+/* Navigation */
+
+nav {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  margin: 0 10px;
+}
+
+.nav-links {
+  margin: 0 10px;
+}
+
+.nav-logo img {
+  height: 50px;
+}
+
+.nav-links span {
+  padding: 0 5px;
+}
+.nav-links a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* Mission */
+
+#mission {
+  position: relative;
+  top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.mission-headline,
+.mission-text {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+}
+
+.mission-headline h2 {
+  margin: 15px 0;
+}
+
+.mission-text h4 {
+  margin: 15px 0;
+}
+
+/* Tea of the Month */
+#tea-of-month {
+  width: 1000px;
+  margin: 75px auto;
+  position: relative;
+  top: 69px;
+}
+.tea-of-month h2,
+.tea-of-month h4 {
+  text-align: center;
+}
+
+.tea-of-month-flex-img {
+  margin: 15px;
+}
+
+.tea-of-month-flex-img img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-of-month-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Locations */
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#locations h2 {
+  width: 100%;
+}
+.locations-div {
+  background-color: #000;
+  margin: 0 40px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.locations-div h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer */
+.footer {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
